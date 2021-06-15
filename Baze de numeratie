@@ -1,0 +1,17 @@
+//Baze de numeratie
+
+#include <iostream>
+
+using namespace std;
+
+int b10, bq=0, bl=0, r, q, l, uc;
+long p=1;
+
+int main()
+{
+    cout<<"NR Bq="; cin>>bq;
+    cout<<"Baza in care este:" ; cin>>q;
+    cout<<"Baza in care se schimba:"; cin>>l
+}
+   return 0
+}

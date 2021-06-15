@@ -1,0 +1,19 @@
+//maximul
+
+#include <iostream>
+
+usning namespace std;
+int x, maxi;
+
+int main()
+{
+  cin>>x;maxi=x;
+  while
+  {
+      cin>>x;
+      if(x>maxi) maxi=x
+  }
+  cout<<maxi<<endl;
+  
+  return 0;
+}

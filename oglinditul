@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int n, ogl;
+int main()
+{
+    cout<<"Introduceti numarul n: ";
+    cin >> n;
+    while (n != 0)
+	{
+		ogl = ogl * 10 + n % 10; // se inverseaza cifra cu cifra numarul
+		n = n / 10; // se taie pe rand cifrele numarului
+	}
+
+    cout << "Oglinditul numarului 'n' este: "<< ogl;
+return 0;
+}
